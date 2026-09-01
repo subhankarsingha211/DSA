@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class Adjacent_Multiplication {
     public static int[] Adjacent_Multiply(int[] arr){
         int[] newArr= new int[arr.length];
@@ -18,8 +20,6 @@ public class Adjacent_Multiplication {
     }
     public static void main(String[] args){
         int[] arr = {2,4,5};
-        for(int i:Adjacent_Multiply(arr)){
-            System.out.print(i+" ");
-        }
+        System.out.println(Arrays.toString(Adjacent_Multiply(arr)));
     }
 }
